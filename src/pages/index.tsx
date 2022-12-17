@@ -14,10 +14,8 @@ import TeamSection from "../components/TeamSection";
 import CardStack from "../components/CardStack";
 import Footer from "../components/Footer";
 import CallOut from "../components/CallOut";
-import Contribute from "../components/CallToAction";
 import HeroCards from "../components/HeroCards";
 import CallToAction from "../components/CallToAction";
-import PartnersCards from "../components/TwitterFeed";
 import TwitterFeed from "../components/TwitterFeed";
 
 
