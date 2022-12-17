@@ -21,7 +21,7 @@ export default function Alert ({ title, msg }: PropsWithChildren<AlertProps>) {
   return (
 		<>
 			<div>
-				<div className="bg-fuchsia-700 text-white">
+				<div className="bg-emerald-700 text-white">
   	  		<div className="grid grid-cols-2 pl-2 md:pl-10">
 						<div>{title}<span className="pl-2">{msg}</span></div>
 
@@ -29,7 +29,7 @@ export default function Alert ({ title, msg }: PropsWithChildren<AlertProps>) {
 
 						<button 
 						onClick={() => closeAlert()}
-						className="hover:bg-fuchsia-500 px-2 uppercase">
+						className="hover:bg-emerald-500 px-2 uppercase">
 							close
 						</button>
 						</div>

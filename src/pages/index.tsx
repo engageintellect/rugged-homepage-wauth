@@ -14,8 +14,9 @@ import TeamSection from "../components/TeamSection";
 import CardStack from "../components/CardStack";
 import Footer from "../components/Footer";
 import CallOut from "../components/CallOut";
-import Contribute from "../components/Contribute";
+import Contribute from "../components/CallToAction";
 import HeroCards from "../components/HeroCards";
+import CallToAction from "../components/CallToAction";
 
 
 
@@ -50,8 +51,7 @@ const Home: NextPage = (props) => {
 				<TeamSection/>
       </div>
 			<CardStack />
-			<CallOut/>
-			<Contribute/>
+      <CallToAction/>
 			<Footer />
     </>
   );

@@ -12,16 +12,16 @@ export default function Hero({
   return (
     <div className=" bg-hero flex h-72 md:h-96 items-center justify-center bg-gradient-to-r 
 		from-blue-500 
-		to-orange-500 
-		via-purple-500 
+		to-blue-500 
+		via-blue-500 
 		animate-gradient-x
 		bg-cover bg-center shadow-lg
 		">
       <div className="text-center text-white">
-        <div className="my-5 text-7xl font-semibold tracking-tighter md:text-8xl">
+        <div className="my-5 text-4xl sm:text-5xl font-semibold tracking-tighter md:text-7xl">
           {/* {title} */}
           <a href="/">
-            Ti<span className="text-purple-400">t</span>le
+            Rugged<span className="text-blue-400"></span>Development
           </a>
         </div>
         <div className="text-xl tracking-tighter md:text-2xl">
@@ -30,14 +30,14 @@ export default function Hero({
 
         <div className="flex items-center justify-center gap-4">
           <a href="/#learn_more">
-            <button className="mt-4 rounded-lg bg-purple-800 p-4 text-white shadow-lg hover:scale-105 hover:bg-purple-700">
+            <button className="mt-4 rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:scale-105 hover:bg-blue-700">
               Learn More
             </button>
           </a>
 
           <a href="/#contribute">
-            <button className="mt-4 rounded-lg bg-purple-800 p-4 text-white shadow-lg hover:scale-105 hover:bg-purple-700">
-              Contribute
+            <button className="mt-4 rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:scale-105 hover:bg-blue-700">
+              Get a Quote
             </button>
           </a>
         </div>

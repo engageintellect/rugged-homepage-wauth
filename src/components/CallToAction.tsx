@@ -3,12 +3,12 @@ import Form from "./Form"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
-  faCode,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
 
 
-export default function Contribute(){
+export default function CallToAction(){
 	return(
 		<>
       <div
@@ -18,7 +18,7 @@ export default function Contribute(){
         <div className="">
           <div className="flex-cols flex items-center justify-center gap-4">
             <div className="text-5xl font-semibold sm:text-6xl md:text-7xl">
-              Contr<span className="text-purple-400">i</span>bute
+              Let's<span className="text-blue-400"> Do</span> This!
             </div>
 
             <div>
@@ -26,13 +26,13 @@ export default function Contribute(){
                 target="_blank"
                 href="/"
               >
-                <button className="mt-4 rounded-lg bg-purple-800 p-4 text-white shadow-lg hover:bg-purple-700">
+                <button className="mt-4 rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700">
 									<span className="pr-2">
       							<FontAwesomeIcon
-        							icon={faCode}
+        							icon={faEnvelope}
       							/>
 									</span>
-                  Repository
+                  Email Us
                 </button>
               </a>
             </div>
@@ -43,7 +43,7 @@ export default function Contribute(){
           <div className="flex justify-center">
             <div className="w-full py-5 md:max-w-xl lg:w-1/2">
               <p>
-                Ullamco elit occaecat excepteur eiusmod fugiat pariatur sint irure anim pariatur fugiat velit sit. Mollit et anim do officia officia excepteur qui voluptate. Occaecat dolor labore in qui amet veniam ullamco esse officia elit proident nostrud aliquip elit.
+                "Every organization is unique. Our experts are committed to helping you select a solution that matches your specific needs – from warehouse equipment to rugged computing and scanning."
               </p>
             </div>
           </div>

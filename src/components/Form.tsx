@@ -35,28 +35,28 @@ export default function Form () {
     <div className="flex items-center justify-center">
       <form className="grid w-full grid-cols-1 gap-3 md:max-w-xl">
         <input
-          className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-purple-700"
+          className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
           type="text"
           placeholder="Name"
           name="name"
           onChange={(e) => handleChange(e)}
         />
         <input
-          className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-purple-700"
+          className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
           type="text"
           placeholder="Email"
           name="email"
           onChange={(e) => handleChange(e)}
         />
         <input
-          className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-purple-700"
+          className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
           type="text"
           placeholder="Business Unit"
           name="businessUnit"
           onChange={(e) => handleChange(e)}
         />
         <input
-          className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-purple-700"
+          className="rounded-md p-2 text-neutral-900 placeholder-neutral-700 outline-none focus:outline-blue-700"
           type="textarea"
           placeholder="Message"
           name="message"
@@ -68,7 +68,7 @@ export default function Form () {
 
         <button
           onClick={(e) => handleSubmit(e)}
-          className="mt-4 rounded-lg bg-purple-800 p-4 text-white shadow-lg hover:bg-purple-700"
+          className="mt-4 rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700"
         >
           Submit
         </button>

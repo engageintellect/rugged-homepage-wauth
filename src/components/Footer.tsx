@@ -6,14 +6,14 @@ export default function Footer () {
         	<div className="grid grid-cols-2 items-center">
           	<div className="flex justify-start text-xl">
             	<a href="/">
-              	{/* Ne<span className="text-purple-500">x</span>um */}
-              	Footer Title
+              	{/* Ne<span className="text-blue-500">x</span>um */}
+              	Rugged Development
             	</a>
           	</div>
 
           	<div className="flex justify-end">
             	<a href="/">
-              	<div className="cursor-pointer rounded-full bg-purple-700 px-2 hover:scale-105 hover:bg-purple-600">
+              	<div className="cursor-pointer rounded-full bg-blue-700 px-2 hover:scale-105 hover:bg-blue-600">
                 	v0.0.1
               	</div>
             	</a>

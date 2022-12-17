@@ -27,12 +27,12 @@ export default function HeroCards() {
       	<div className="p-2 md:p-10">
         	<div className="grid grid-cols-1 gap-1 md:grid-cols-1 md:gap-4 lg:grid-cols-3">
           	<Card
-            	title="About T3d"
+            	title="About Us"
             	description="What is T3d , and how can it help me or my team?"
             	url="/"
           	/>
           	<Card
-            	title="Getting Started"
+            	title="Our Services"
             	description="Everything you need to get started with T3D."
             	url="/"
           	/>
