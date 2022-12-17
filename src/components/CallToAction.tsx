@@ -16,15 +16,15 @@ export default function CallToAction(){
         id="contribute"
       >
         <div className="">
-          <div className="flex flex-row items-center justify-center gap-4">
-            <div className="text-4xl font-semibold sm:text-6xl md:text-7xl">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+            <div className="text-5xl font-semibold sm:text-6xl md:text-7xl">
               Let's<span className="text-blue-400"> Do</span> This!
             </div>
 
             <div>
               <a
                 target="_blank"
-                href="/"
+                href="mailto:info@ruggeddevelopment.com"
               >
                 <button className="text-xs rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700">
 									<span className="pr-2">

@@ -24,8 +24,8 @@ export default function HeroCards() {
 				// stiffness: 100,
 			}}>
 
-      	<div className="p-2 md:p-10">
-        	<div className="grid grid-cols-1 gap-1 md:grid-cols-1 md:gap-4 lg:grid-cols-3">
+      	<div className="p-2 md:p-4">
+        	<div className="grid grid-cols-1 gap-1 md:gap-4 md:grid-cols-3">
           	<Card
             	title="About Us"
             	description="What is T3d , and how can it help me or my team?"
