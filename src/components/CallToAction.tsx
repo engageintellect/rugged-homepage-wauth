@@ -12,12 +12,12 @@ export default function CallToAction(){
 	return(
 		<>
       <div
-        className="bg-neutral-800 p-5 pb-10 text-white md:p-10"
+        className="bg-neutral-800 p-5 md:p-10 py-20 text-white"
         id="contribute"
       >
         <div className="">
-          <div className="flex-cols flex items-center justify-center gap-4">
-            <div className="text-5xl font-semibold sm:text-6xl md:text-7xl">
+          <div className="flex flex-row items-center justify-center gap-4">
+            <div className="text-4xl font-semibold sm:text-6xl md:text-7xl">
               Let's<span className="text-blue-400"> Do</span> This!
             </div>
 
@@ -26,7 +26,7 @@ export default function CallToAction(){
                 target="_blank"
                 href="/"
               >
-                <button className="mt-4 rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700">
+                <button className="text-xs rounded-lg bg-blue-800 p-4 text-white shadow-lg hover:bg-blue-700">
 									<span className="pr-2">
       							<FontAwesomeIcon
         							icon={faEnvelope}

@@ -6,7 +6,7 @@ export default function CallOut(){
         id="getting_started"
       >
         <div className="p-5 md:p-10 xl:w-2/3 xl:mx-auto">
-          <div className="text-7xl font-semibold text-white flex justify-center" id="about">
+          <div className="text-4xl md:text-7xl font-semibold text-white flex justify-center" id="about">
             <a href="/">
               Our<span className="text-blue-400">Partners</span>
             </a>

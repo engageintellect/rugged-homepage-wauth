@@ -10,10 +10,10 @@ export default function Hero({
   description,
 }: PropsWithChildren<HeroProps>) {
   return (
-    <div className=" bg-hero flex h-48 md:h-96 items-center justify-center bg-gradient-to-r 
-		from-blue-500 
-		to-blue-500 
-		via-blue-500 
+    <div className=" bg-hero flex h-64 md:h-96 items-center justify-center bg-gradient-to-r 
+		from-neutral-500 
+		to-neutral-500 
+		via-neutral-500 
 		animate-gradient-x
 		bg-cover bg-center shadow-lg
 		">
@@ -21,7 +21,7 @@ export default function Hero({
         <div className="my-2 md:my-5 text-4xl sm:text-5xl font-semibold tracking-tighter md:text-7xl">
           {/* {title} */}
           <a href="/">
-            Rugged<span className="text-blue-400"></span>Development
+            Rugged<span className="text-blue-400"></span> Development
           </a>
         </div>
         <div className="text-md md:text-xl tracking-tighter xl:text-2xl px-5 md:px-20">

@@ -23,7 +23,7 @@ export default function Alert ({ title, msg }: PropsWithChildren<AlertProps>) {
 			<div>
 				<div className="bg-emerald-700 text-white">
   	  		<div className="grid grid-cols-2 pl-2 md:pl-10">
-						<div>{title}<span className="pl-2">{msg}</span></div>
+						<div className="text-sm md:text-md">{title}<span className="pl-2">{msg}</span></div>
 
 						<div className="ml-auto uppercase px-2 md:px-10">
 
