@@ -17,6 +17,8 @@ import CallOut from "../components/CallOut";
 import Contribute from "../components/CallToAction";
 import HeroCards from "../components/HeroCards";
 import CallToAction from "../components/CallToAction";
+import PartnersCards from "../components/TwitterFeed";
+import TwitterFeed from "../components/TwitterFeed";
 
 
 
@@ -51,6 +53,7 @@ const Home: NextPage = (props) => {
 				<TeamSection/>
       </div>
 			<CardStack />
+      <TwitterFeed/>
       <CallToAction/>
 			<Footer />
     </>
