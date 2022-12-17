@@ -18,13 +18,13 @@ export default function Hero({
 		bg-cover bg-center shadow-lg
 		">
       <div className="text-center text-white">
-        <div className="my-5 text-4xl sm:text-5xl font-semibold tracking-tighter md:text-7xl">
+        <div className="my-2 md:my-5 text-4xl sm:text-5xl font-semibold tracking-tighter md:text-7xl">
           {/* {title} */}
           <a href="/">
             Rugged<span className="text-blue-400"></span>Development
           </a>
         </div>
-        <div className="text-xl tracking-tighter md:text-2xl">
+        <div className="text-md md:text-xl tracking-tighter xl:text-2xl px-5 md:px-20">
           {description}
         </div>
 

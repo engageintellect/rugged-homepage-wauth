@@ -45,12 +45,14 @@ const Home: NextPage = (props) => {
 				<Navbar />
         <Hero
           title="Titlei"
-          description="A modern tech stack for building fast."
+          description="We supply, deploy, and support innovative technology
+that will optimize efficiency and increase profitability."
         />
 				<HeroCards/>
 				<TeamSection/>
       </div>
 			<CardStack />
+      <CallOut/>
       <TwitterFeed/>
       <CallToAction/>
 			<Footer />
